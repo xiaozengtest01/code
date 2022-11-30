@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T06:27:50.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.2.7" etag="yUQT1KnqqTCLM5xb7vaz" type="github"><diagram id="miFV4i8unlRRK2cO5j7V">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-30T06:29:06.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xP4Wn_fchJK01GIpm07K" version="20.2.7" type="github">
+  <diagram id="miFV4i8unlRRK2cO5j7V" name="第 1 页">
+    <mxGraphModel dx="1422" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EVp-KIiF4oVst0jQ7aJW-2" target="EVp-KIiF4oVst0jQ7aJW-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-2" value="进入软件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EVp-KIiF4oVst0jQ7aJW-4" target="EVp-KIiF4oVst0jQ7aJW-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-4" value="点击导出按钮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EVp-KIiF4oVst0jQ7aJW-6" target="EVp-KIiF4oVst0jQ7aJW-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-6" value="执行x6TopoTopBar.vue的&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;topBarMethods（&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&#39;export&#39;）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="EVp-KIiF4oVst0jQ7aJW-8" target="EVp-KIiF4oVst0jQ7aJW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-8" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;向父元件传递参数this.$emit(&#39;topBarMethods&#39;, type, param)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="310" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="EVp-KIiF4oVst0jQ7aJW-10" target="EVp-KIiF4oVst0jQ7aJW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-10" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;在x6main.vue执行方法&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;export&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="345" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="EVp-KIiF4oVst0jQ7aJW-12" target="EVp-KIiF4oVst0jQ7aJW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;遍历&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;exportContent所有页面内容，将缓存的内容和当前页面的显示内容覆盖进去&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="800" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EVp-KIiF4oVst0jQ7aJW-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;最后调用&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;x2js的库，将生成的JSON数据转换为xml格式，最后新建标签a,代码下载它&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1015" width="210" height="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
